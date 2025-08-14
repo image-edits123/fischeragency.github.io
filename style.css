@@ -1,6 +1,6 @@
-@font-face {font-family:'DMSerifText'; src:url(fonts/DMSerifText-Regular.ttf)}
+@font-face {font-family:'DMSerifText'; src:url(fonts/DMSerifText-Regular.ttf) format("truetype");}
 
-@font-face {font-family:'Roboto-Light.ttf'; src:url(fonts/Roboto-Light.ttf)}
+@font-face {font-family:'Roboto-Light.ttf'; src:url(fonts/Roboto-Light.ttf) format("truetype");}
 
 body {
   font-family: 'Roboto-Light.ttf' !important;
