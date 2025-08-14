@@ -1,0 +1,239 @@
+@font-face {font-family:'DMSerifText'; src:url(fonts/DMSerifText-Regular.ttf)}
+
+@font-face {font-family:'Roboto-Light.ttf'; src:url(fonts/Roboto-Light.ttf)}
+
+body {
+  font-family: 'Roboto-Light.ttf';
+  margin:0;
+  padding:0;
+  font-size: 24px;
+  background-color: #DFE7F1;
+  background-size: cover;
+  color:black;
+  }
+
+logos {}
+
+linktext{}
+
+button {font-family: "DMSerifText", 'san-serif'; background-color:blue; color:white; font-size: 22px; border-radius: 6px;align-content: center;}
+
+/*Everything goes inside here.*/
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  align-self: center;
+  }
+  
+.title {font-size: 40px; text-align: center;}
+
+mark {background-color:#DFE7F1; color:black; font-family:"DMSerifText", 'san-serif'; padding: 0.0em 0.25em;}
+
+mark2 {background-color:lightsteelblue; color:black; font-family:"DMSerifText", 'san-serif'; padding: 0.0em 0.25em;}
+  
+/*Basic box code that is used for all content boxes on the page.*/
+
+
+.box {
+  border: 0px solid black;
+  padding: 0.25em 0.25em;
+  padding-bottom: 20px;
+  align-self: center;
+  }
+
+.box1 {
+    background-color:rgb(0,0,0,0);
+    background: cover;
+    padding: 0.25em 0.25em;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.box2 {
+    background-color:lightsteelblue;
+    background: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 12%;
+    padding-right: 12%;
+    top: 0;
+    overflow: hidden;
+}
+
+.box5 {
+    background-color:lightsteelblue;
+    background: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 12%;
+    padding-right: 12%;
+    top: 0;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.box3 {
+    background: #DFE7F1;
+    background: cover;
+    padding: 0.5em 1em;
+    color: black;
+    overflow: hidden;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 80px;
+    font-size: 16px;
+}
+
+.titlebox {
+    background: #DFE7F1;
+    background: cover;
+    padding: 0.5em 1em;
+    color: black;
+    overflow: hidden;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+
+.titlebox2 {
+    background: #DFE7F1;
+    background: cover;
+    padding: 0.5em 1em;
+    color: black;
+    overflow: hidden;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.box4 {
+    background: #DFE7F1;
+    background: cover;
+    color: black;
+    overflow: hidden;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box7 {
+    background: #DFE7F1;
+    background: cover;
+    color: black;
+    overflow: hidden;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+}
+  
+/*This is where the title, navbar, and main content all go.*/
+.main-wrapper {
+  align-self: center;
+  }
+  
+/*Two columns by default. The "single-column" class can be added to make it one column.*/
+.main {
+  columns: 1;
+  }
+  
+/*Make sure boxes don't spread over multiple columns.*/
+.main .box {
+  display: inline-block;
+  }
+  
+.footer {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  text-align: center;
+  }
+
+@media(max-width:915px) {
+  .wrapper, .body, .text {    
+    width: 95%;
+    }
+    
+  .main-wrapper, .body, .text {
+    width: calc(100% - 225px);
+    align-self: center;
+    }
+  }
+
+
+@media (orientation: portrait), (max-width: 480x) {
+linktext{
+    font-size:40px; 
+    }
+
+@media (orientation: portrait), (max-width: 480x) {
+iframe{
+    width: auto !important;
+    height:600px !important;
+    align-self: center;
+    }
+    
+@media (orientation: portrait), (max-width: 480x) {
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, {
+    font-size:20px;
+    }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   .title {
+    font-size:80px;
+    }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   .footer {
+    font-size:30px;
+    }
+  
+@media (orientation: portrait), (max-width: 480x) {
+  .box1 {
+    position:relative;
+    }
+
+@media (orientation: portrait), (max-width: 480x) {
+  button {
+    width:100%;
+    height:250%;
+    font-size:150% !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   img {
+       max-width: 200% !important;
+       height: auto !important;
+       }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   .box5 img {
+       width: auto !important;
+       height: 300px !important;
+       }
+  
+  }
