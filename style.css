@@ -184,7 +184,7 @@ mark2 {background-color:lightsteelblue; color:black; font-family:"DMSerifText" !
 
 @media (orientation: portrait), (max-width: 480x) {
 body, .box1, .box5, .box3, .box7, .box4{
-    font-size:4em !important; 
+    font-size:40px !important; 
     }
 
 @media (orientation: portrait), (max-width: 480x) {
