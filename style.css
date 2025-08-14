@@ -201,7 +201,7 @@ iframe{
     
 @media (orientation: portrait), (max-width: 480x) {
    .title {
-    font-size:100px;
+    font-size:100px !important;
     }
     
 @media (orientation: portrait), (max-width: 480x) {
@@ -235,5 +235,10 @@ iframe{
        height: 300px !important;
        }
     
+@media (orientation: portrait), (max-width: 480x) {
+   .box2 img {
+       width: auto !important;
+       height: 150% !important;
+       }
   
   }
