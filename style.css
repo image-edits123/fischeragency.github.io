@@ -238,7 +238,7 @@ iframe{
 @media (orientation: portrait), (max-width: 480x) {
    .box2 img {
        width: auto !important;
-       height: 1500px !important;
+       height: 1000px !important;
        display:block !important; margin:0 !important; float: none !important; text-align: center !important;
        }
   
