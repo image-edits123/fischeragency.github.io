@@ -3,7 +3,7 @@
 @font-face {font-family:'Roboto-Light.ttf'; src:url(fonts/Roboto-Light.ttf)}
 
 body {
-  font-family: 'Roboto-Light.ttf';
+  font-family: 'Roboto-Light.ttf' !important;
   margin:0;
   padding:0;
   font-size: 24px;
@@ -16,7 +16,7 @@ logos {}
 
 linktext{}
 
-button {font-family: "DMSerifText", 'san-serif'; background-color:blue; color:white; font-size: 22px; border-radius: 6px;align-content: center;}
+button {font-family: "DMSerifText", 'san-serif' !important; text-transform: !important;  background-color:blue; color:white; font-size: 22px; border-radius: 6px;align-content: center;}
 
 /*Everything goes inside here.*/
 .wrapper {
