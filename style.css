@@ -197,7 +197,7 @@ iframe{
     
 @media (orientation: portrait), (max-width: 480x) {
   .box1, .box2, .box3, .box4, .box5, .box6, .box7, {
-    font-size:20px;
+    font-size:40px;
     }
     
 @media (orientation: portrait), (max-width: 480x) {
