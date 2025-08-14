@@ -16,7 +16,7 @@ logos {}
 
 linktext{}
 
-button {font-family: "DMSerifText", 'san-serif' !important; text-transform: !important;  background-color:blue; color:white; font-size: 22px; border-radius: 6px;align-content: center;}
+button {font-family: "DMSerifText" !important; background-color:blue; color:white; font-size: 22px; border-radius: 6px;align-content: center;}
 
 /*Everything goes inside here.*/
 .wrapper {
@@ -27,9 +27,9 @@ button {font-family: "DMSerifText", 'san-serif' !important; text-transform: !imp
   
 .title {font-size: 40px; text-align: center;}
 
-mark {background-color:#DFE7F1; color:black; font-family:"DMSerifText", 'san-serif'; padding: 0.0em 0.25em;}
+mark {background-color:#DFE7F1; color:black; font-family:"DMSerifText" !important; padding: 0.0em 0.25em;}
 
-mark2 {background-color:lightsteelblue; color:black; font-family:"DMSerifText", 'san-serif'; padding: 0.0em 0.25em;}
+mark2 {background-color:lightsteelblue; color:black; font-family:"DMSerifText" !important; padding: 0.0em 0.25em;}
   
 /*Basic box code that is used for all content boxes on the page.*/
 
