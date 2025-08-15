@@ -236,7 +236,7 @@ iframe{
 @media (orientation: portrait), (max-width: 480x) {
    .box4 img {
        width: auto !important;
-       height: 160px !important;
+       height: 80px !important;
        }
     
 @media (orientation: portrait), (max-width: 480x) {
