@@ -130,10 +130,14 @@ mark2 {background-color:lightsteelblue; color:black; font-family:"DMSerifText" !
     padding-right: 12%;
     padding-top: 0px;
     padding-bottom: 80px;
-    font-size: 16px;
+    font-size: 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+linktext{
+    font-size:16px; 
+    }
 
 .box7 {
     background: #DFE7F1;
