@@ -222,7 +222,7 @@ iframe{
 @media (orientation: portrait), (max-width: 480x) {
   button {
     width:100%;
-    height:250%;
+    height:220%;
     font-size:150% !important;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -230,7 +230,7 @@ iframe{
     
 @media (orientation: portrait), (max-width: 480x) {
    img {
-       max-width: 200% !important;
+       max-width: 180% !important;
        height: auto !important;
        }
     
