@@ -198,6 +198,7 @@ linktext{
 
 @media (orientation: portrait), (max-width: 480x) {
 iframe{
+    display:none;
     width: auto !important;
     height:600px !important;
     align-self: center;
