@@ -193,7 +193,7 @@ body, .box1, .box5, .box3, .box7, .box4{
 
 @media (orientation: portrait), (max-width: 480x) {
 linktext{
-    font-size:60px !important; 
+    font-size:40px !important; 
     }
 
 @media (orientation: portrait), (max-width: 480x) {
@@ -231,6 +231,12 @@ iframe{
    img {
        max-width: 200% !important;
        height: auto !important;
+       }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   .box4 img {
+       width: auto !important;
+       height: 160px !important;
        }
     
 @media (orientation: portrait), (max-width: 480x) {
