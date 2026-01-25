@@ -2,6 +2,8 @@
 
 @font-face {font-family:'Roboto-Light'; src:url(fonts/roboto-light-webfont.woff) format("woff"), src:url(fonts/roboto-light-webfont.woff2) format("woff2") ;}
 
+html {scroll-behavior: smooth;}
+
 body {
   font-family: 'Roboto-Light' !important;
   margin:0;
@@ -16,7 +18,7 @@ logos {}
 
 linktext{}
 
-button {font-family: "DMSerifText" !important; background-color:blue; color:white; font-size: 22px; border-radius: 6px;align-content: center;}
+button {font-family: "DMSerifText" !important; background-color:blue; color:white; font-size: 20px; border-radius: 6px;align-content: center;}
 
 /*Everything goes inside here.*/
 .wrapper {
@@ -60,6 +62,21 @@ mark2 {background-color:lightsteelblue; color:black; font-family:"DMSerifText" !
     box-sizing: border-box;
     color: black;
     padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 12%;
+    padding-right: 12%;
+    top: 0;
+    overflow: hidden;
+}
+
+.ourclients {
+    background-color:lightsteelblue;
+    background: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    padding-top: 60px;
     padding-bottom: 80px;
     padding-left: 12%;
     padding-right: 12%;
